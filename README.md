@@ -2,7 +2,7 @@
 
 Your personal gaming library, with local saves, cover artwork and playtime tracking.
 
-**[Download GameVault 0.3.5 for Windows](https://github.com/ShadowSwaps/GameVault-Downloads/releases/download/v0.3.5/GameVault_0.3.5_x64-setup.exe)** · [Release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/latest) · [User guide](docs/USAGE.md)
+**[Download GameVault 0.3.6 for Windows](https://github.com/ShadowSwaps/GameVault-Downloads/releases/download/v0.3.6/GameVault_0.3.6_x64-setup.exe)** · [Release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/latest) · [User guide](docs/USAGE.md)
 
 ## Get started
 
@@ -10,7 +10,7 @@ Your personal gaming library, with local saves, cover artwork and playtime track
 2. Add games, import a CSV, or choose **Connect to Steam** / **Connect libraries**.
 3. Use **Settings → Export backup** to keep a copy of your collection.
 
-Updater-enabled 0.3.2 installations can go straight to 0.3.5 through **Settings → Check for updates → Update and restart**. Finish a running session first. Browser copies and desktop previews need one manual installation of the public release to enable future in-app updates.
+Updater-enabled 0.3.2 installations can go straight to 0.3.6 through **Settings → Check for updates → Update and restart**. Finish a running session first. Browser copies and desktop previews need one manual installation of the public release to enable future in-app updates.
 
 ## What you can do
 
@@ -18,11 +18,25 @@ Updater-enabled 0.3.2 installations can go straight to 0.3.5 through **Settings 
 - Connect your owned Steam library, or import installed PC games from Epic Games, Ubisoft Connect, GOG, EA app and Battle.net.
 - Find Steam and SteamGridDB cover artwork; optionally generate researched covers with a visible AI mark.
 - Track sessions, playtime, achievements and cost per played hour, with JSON backups and CSV import/export.
+- Choose Gaming, Dark, Light, Cozy or Calm from the saved Theme menu at the top right.
 - Choose English, Norwegian Bokmål, German, Spanish or French. Some detailed help and advanced messages use English.
 
 Your collection is stored on your device. Launcher imports show a review before saving and preserve your existing notes, covers, ratings and sessions.
 
 ## New in each version
+
+<details>
+<summary><strong>New in 0.3.6</strong></summary>
+
+- A gaming style with a controller/vault icon, cyan accents and matching setup and uninstaller artwork.
+- Gaming, Dark, Light, Cozy and Calm, selected from the saved Theme menu at the top right.
+- Readable light palettes for forms, library filters, statuses, discovery, achievements and dialogs.
+- Theme choices survive restart, JSON backups and restoration; older backups remain compatible.
+- Theme changes and automatic library refreshes preserve unsaved Settings fields.
+
+Published with **528 production checks passed**. [0.3.6 release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.6).
+
+</details>
 
 <details>
 <summary><strong>New in 0.3.5</strong></summary>
@@ -120,7 +134,7 @@ The new launcher connections detect installed PC games. Steam retains its separa
 
 Download the **.exe installer** from a release's Assets section. GameVault saves your collection on this device; use **Settings → Export backup** to keep an external copy.
 
-The 0.3.5 production Windows build passed **481 checks**, including browser workflows, recommendations, achievement reconciliation, native storage, installer interaction and the installed app. Its final installer was verified with GameVault's permanent updater key, and the public update feed was checked.
+The 0.3.6 production Windows build passed **528 checks**, including rendered themes, contrast, browser workflows, recommendations, native storage, actual setup/uninstall and installed-app restart. The final installer was verified with GameVault's permanent updater key, and the public update feed was checked.
 
 Windows publisher signing is not configured yet, so Windows may show an unknown-publisher prompt. Setup may need internet access to install WebView2 if the runtime is missing. GameVault runs offline after installation.
 
