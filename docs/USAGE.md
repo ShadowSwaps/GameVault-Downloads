@@ -4,11 +4,17 @@
 
 ## Install and update
 
-Download **GameVault_0.3.4_x64-setup.exe** from the [0.3.4 release](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.4), run setup, and open GameVault from the Start menu. Setup may need internet access to install WebView2 if that runtime is missing. The application stores your collection locally and runs offline after installation.
+Download **GameVault_0.3.5_x64-setup.exe** from the [0.3.5 release](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.5), run setup, and open GameVault from the Start menu. Setup may need internet access to install WebView2 if that runtime is missing. The application stores your collection locally and runs offline after installation.
 
-In the public Windows release, choose **Settings → Check for updates**, review the notes, then select **Update and restart**. Finish or discard a running session first. A local pre-update database backup is created and the existing collection is retained. Updater-enabled 0.3.2 installations can upgrade directly to 0.3.4.
+In the public Windows release, choose **Settings → Check for updates**, review the notes, then select **Update and restart**. Finish or discard a running session first. A local pre-update database backup is created and the existing collection is retained. Updater-enabled 0.3.2 installations can upgrade directly to 0.3.5.
+
+GameVault 0.3.5 also checks at launch. When a newer version is confirmed, a pop-up shows its version and release notes with **Install now** and **Later**. The prompt waits for an open dialog, save or library task to finish. Later keeps the update available in the banner and Settings, and the same version will not prompt again until the next app launch. An offline check, a current version or a preview with updates disabled never opens this pop-up. Nothing installs without your choice.
 
 Desktop preview installers have production updates disabled and need one manual installation of the public release. Windows publisher signing is not configured yet; the permanent updater key verifies update packages.
+
+## Library companion
+
+Library combines your collection with What to play, discovery and achievement progress on the right at desktop widths. [Read the recommendations and achievements guide](LIBRARY_COMPANION.md) for personal picks, new-game discovery, automatic Steam progress and supported stores.
 
 ## Start your collection
 
@@ -81,7 +87,7 @@ If startup cannot read your save, recovery settings offer previous-save recovery
 
 ## Browser preview
 
-If you have a standalone **GameVault.html** preview, it supports the collection and organization features. Open it in Chrome, Edge or Firefox, then explore the demo or restore a JSON backup. It needs no installation, server, account or internet connection.
+The standalone **GameVault.html** supports the collection and organization features. Open it in Chrome, Edge or Firefox, then explore the demo or restore a JSON backup. It needs no installation, server, account or internet connection.
 
 Keep the HTML at the same path and use the same browser profile. Private browsing or clearing browser data may remove saves. Native launcher connections and automatic Windows updates require the desktop app. The desktop and browser copies keep separate collections; use a JSON backup to move between them.
 

@@ -2,7 +2,7 @@
 
 Your personal gaming library, with local saves, cover artwork and playtime tracking.
 
-**[Download GameVault 0.3.4 for Windows](https://github.com/ShadowSwaps/GameVault-Downloads/releases/download/v0.3.4/GameVault_0.3.4_x64-setup.exe)** · [Release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/latest) · [User guide](docs/USAGE.md)
+**[Download GameVault 0.3.5 for Windows](https://github.com/ShadowSwaps/GameVault-Downloads/releases/download/v0.3.5/GameVault_0.3.5_x64-setup.exe)** · [Release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/latest) · [User guide](docs/USAGE.md)
 
 ## Get started
 
@@ -10,7 +10,7 @@ Your personal gaming library, with local saves, cover artwork and playtime track
 2. Add games, import a CSV, or choose **Connect to Steam** / **Connect libraries**.
 3. Use **Settings → Export backup** to keep a copy of your collection.
 
-Updater-enabled 0.3.2 installations can go straight to 0.3.4 through **Settings → Check for updates → Update and restart**. Finish a running session first. Browser copies and desktop previews need one manual installation of the public release to enable future in-app updates.
+Updater-enabled 0.3.2 installations can go straight to 0.3.5 through **Settings → Check for updates → Update and restart**. Finish a running session first. Browser copies and desktop previews need one manual installation of the public release to enable future in-app updates.
 
 ## What you can do
 
@@ -23,6 +23,20 @@ Updater-enabled 0.3.2 installations can go straight to 0.3.4 through **Settings 
 Your collection is stored on your device. Launcher imports show a review before saving and preserve your existing notes, covers, ratings and sessions.
 
 ## New in each version
+
+<details>
+<summary><strong>New in 0.3.5</strong></summary>
+
+- Library, Achievements and What to play share one view, with a right-hand companion panel on desktop.
+- Personal recommendations use your played hours and genres, with occasional variety and a Surprise me option.
+- Discover games outside your owned collection, open official Steam pages and save suggestions to the wishlist.
+- Refresh current Steam suggestions and retain an offline catalog.
+- Automatically refresh Steam achievement progress while preserving manual achievements and cached progress. Other connected libraries retain manual tracking.
+- A Windows launch shows available updates in a pop-up with Install now, Later and release notes.
+
+Published with **481 production checks passed**. [0.3.5 release notes](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.5). [Behavior and store support](docs/LIBRARY_COMPANION.md).
+
+</details>
 
 <details>
 <summary><strong>New in 0.3.4</strong></summary>
@@ -102,11 +116,11 @@ The new launcher connections detect installed PC games. Steam retains its separa
 
 ## Help and updates
 
-[User guide](docs/USAGE.md) · [CSV import template](CSV_Import_Template.csv) · [All releases](https://github.com/ShadowSwaps/GameVault-Downloads/releases)
+[User guide](docs/USAGE.md) · [Library recommendations and achievements](docs/LIBRARY_COMPANION.md) · [CSV import template](CSV_Import_Template.csv) · [All releases](https://github.com/ShadowSwaps/GameVault-Downloads/releases)
 
 Download the **.exe installer** from a release's Assets section. GameVault saves your collection on this device; use **Settings → Export backup** to keep an external copy.
 
-The 0.3.4 production Windows build passed **392 checks**, including browser workflows, native storage, installer interaction and the installed app. Its final installer was verified with GameVault's permanent updater key, and the public update feed was checked.
+The 0.3.5 production Windows build passed **481 checks**, including browser workflows, recommendations, achievement reconciliation, native storage, installer interaction and the installed app. Its final installer was verified with GameVault's permanent updater key, and the public update feed was checked.
 
 Windows publisher signing is not configured yet, so Windows may show an unknown-publisher prompt. Setup may need internet access to install WebView2 if the runtime is missing. GameVault runs offline after installation.
 
