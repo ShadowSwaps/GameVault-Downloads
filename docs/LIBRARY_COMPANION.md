@@ -12,7 +12,7 @@ The picker explains whether a suggestion follows recorded playtime, introduces v
 
 ## Discover games outside your library
 
-A 46-game starter catalog works offline. Each identity and title was checked against official Steam metadata on 2026-10-04. Genre groupings add familiar play styles such as Shooter and Puzzle to Steam's broader genre labels. The starter catalog is included with GameVault.
+A 46-game starter catalog works offline. Each identity and title was checked against official Steam metadata on 2026-10-04. Genre groupings add familiar play styles such as Shooter and Puzzle to Steam's broader genre labels. See [discovery-catalog.js](../frontend/discovery-catalog.js).
 
 **Refresh game suggestions** in the Windows app reads Steam's public featured catalog and validates individual app metadata. Only released Windows games with supported genres are accepted; DLC, bundles and invalid identities are excluded. The native request reads at most 24 candidate pages and retains at most 12 valid results. Cached results survive restart and JSON backups. Provider errors leave the previous catalog intact.
 

@@ -4,9 +4,9 @@
 
 ## Install and update
 
-Download **GameVault_0.3.6_x64-setup.exe** from the [0.3.6 release](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.6), run setup, and open GameVault from the Start menu. Setup may need internet access to install WebView2 if that runtime is missing. The application stores your collection locally and runs offline after installation.
+Download **GameVault_0.3.7_x64-setup.exe** from the [0.3.7 release](https://github.com/ShadowSwaps/GameVault-Downloads/releases/tag/v0.3.7), run setup, and open GameVault from the Start menu. Setup may need internet access to install WebView2 if that runtime is missing. The application stores your collection locally and runs offline after installation.
 
-In the public Windows release, choose **Settings → Check for updates**, review the notes, then select **Update and restart**. Finish or discard a running session first. A local pre-update database backup is created and the existing collection is retained. Updater-enabled 0.3.2 installations can upgrade directly to 0.3.6.
+In the public Windows release, choose **Settings → Check for updates**, review the notes, then select **Update and restart**. Finish or discard a running session first. A local pre-update database backup is created and the existing collection is retained. Updater-enabled 0.3.2 installations can upgrade directly to 0.3.7.
 
 GameVault 0.3.5 and later also check at launch. When a newer version is confirmed, a pop-up shows its version and release notes with **Install now** and **Later**. The prompt waits for an open dialog, save or library task to finish. Later keeps the update available in the banner and Settings, and the same version will not prompt again until the next app launch. An offline check, a current version or a preview with updates disabled never opens this pop-up. Nothing installs without your choice.
 
@@ -14,7 +14,9 @@ Desktop preview installers have production updates disabled and need one manual 
 
 ## Themes
 
-The **Theme** menu at the top right offers **Gaming**, **Dark**, **Light**, **Cozy** and **Calm** in GameVault 0.3.6. Changes apply immediately and are saved with your collection, including JSON backups. Old backups without a theme use Gaming. Switching themes preserves unfinished profile fields, library searches and open editors. Gaming is the default; the app icon, setup and uninstaller match its navy/cyan controller design. Setup keeps this palette regardless of the theme chosen inside the app.
+The **Theme** menu at the top right offers **Gaming**, **Dark**, **Light**, **Cozy** and **Calm** in GameVault 0.3.6 and later. Changes apply immediately and are saved with your collection, including JSON backups. Old backups without a theme use Gaming. Switching themes preserves unfinished profile fields, library searches and open editors. Gaming is the default; the app icon, setup and uninstaller match its navy/cyan controller design. Setup keeps this palette regardless of the theme chosen inside the app.
+
+GameVault 0.3.7 reworks Calm into a dim slate/forest theme with muted sage accents, fewer decorations and steady covers on hover. [Design notes and research](CALM_RESEARCH.md).
 
 ## Library companion
 
@@ -106,3 +108,25 @@ Custom JPG, PNG and WebP images can be up to 8 MB. They are resized to a maximum
 ## Reporting a problem
 
 Include your GameVault version, Windows version, the action you tried and what happened. A screenshot can help. Collection and backup files can contain personal notes, so share only what is needed.
+
+## Steam connection and cover recovery
+
+A connected Steam button reads **Steam Connected** and still opens connection settings. Disconnecting restores **Connect to Steam**. If an AI cover request fails, GameVault skips further AI attempts for that scan and continues ordinary cover searches. A connected SteamGridDB account is retried for the affected game. Without its free API key, Steam covers can still be found for games with an App ID; connect SteamGridDB to add community artwork searches. Existing artwork is kept.
+
+## Unified dashboard
+
+Overview, Library, Wishlist and Sessions stay in one dashboard. Section links jump to the appropriate area; Wishlist changes the collection panel while recommendations, achievements and session history stay nearby. The timer is always available and recent sessions appear below the collection. Show all sessions opens the full history inline.
+
+Settings uses a cog immediately before the Windows title-bar controls and opens in its own window. The browser preview uses a separate Settings dialog. Saving a preference updates the desktop collection in the other window while preserving unfinished fields. Theme preferences remain shared with the collection.
+
+Last played appears in a compact theme-colored strip at the bottom of covers. Steam refresh imports optional API or local manifest timestamps when available; logged sessions supply dates for any game. The later calendar date is shown. The Last played sort places known dates first and unknown dates last. Hours alone never imply a date, and an unavailable date is not described as never played.
+
+## Storefront wishlists and sale alerts
+
+Set a game's Status to Wishlist and use **Wishlist & sale alerts** in Edit game. Choose a storefront and save its official product link. Steam entries can use an App ID or a product link containing the App ID. Choose a threshold from **5% to 100% in 5% steps**, then enable **Notify me in GameVault**. A discount equal to or greater than the selected threshold qualifies.
+
+Use **Check wishlist offers** for a manual refresh. Settings → Wishlist sale alerts selects the Steam region and enables background checks. Background checks run while GameVault is open, refresh each eligible product at most every six hours, and process batches of up to 20 every 15 minutes. They require internet access, use public Steam product data, and do not need your Steam API key. Products with no regional paid offer are not treated as invented discounts.
+
+The bell near Settings keeps qualifying sale notifications. An unchanged offer is reported once; opening notifications marks them read. When a sale ends, the alert can qualify again for a later sale. Cached offers show their last-check time; open the official product page to confirm the current price. Prices use the chosen storefront region's currency. Your manually entered library prices are not converted.
+
+Other stores currently retain their official product links. Automatic price alerts currently support Steam. GameVault does not write to your Steam, Epic or other online account wishlist, and alerts do not run while GameVault is closed.
