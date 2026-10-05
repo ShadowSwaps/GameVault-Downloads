@@ -1,0 +1,24 @@
+Use case: infographic-diagram.
+Asset type: finished landscape PNG for the GameVault GitHub README.
+Create a beautiful, professional development-timeline infographic, 16:9 landscape (ideally 2560x1440). An editorial technology-roadmap design: very deep navy background, restrained muted blue/cyan accents, crisp white and pale blue typography. Subtle abstract layered mountain silhouettes and a sparse pine forest near the lower edge, soft atmospheric depth. The scenery is decoration behind the timeline; text must sit on calm opaque or near-opaque navy surfaces with excellent contrast. No photography, neon glow, fake logos, game characters or watermark.
+Composition: strong spacious title at upper left, small planning label at upper right. Six evenly spaced milestone nodes across one left-to-right horizontal route in the central area. Alternate generous text blocks above and below the route if useful, using very subtle lines to their nodes. Make the six milestone numbers and dates conspicuous. Preserve ample margins and avoid any overlaps. A separate bottom strip summarizes delivered progress. Make every line readable when the image is displayed at 1000 pixels wide in a GitHub README. High-quality typography and precise spelling are more important than decorative detail.
+Render the following exact copy, with no additional words or invented version numbers:
+TITLE: "GAMEVAULT"
+SUBTITLE: "Development timeline"
+SMALL LABEL: "PLANNED MILESTONES · Updated 5 October 2026"
+Under title: "From a working PC library to a connected gaming collection."
+Six milestone blocks, in this exact chronological order:
+"01" / "OCT 2026" / "Foundation & connections" / "In-app Settings · reliable sync" / "Five themes + Comfort" / "Phases 1–2"
+"02" / "NOV 2026" / "Play & collection" / "Safe launching · session tracking" / "Game detail panel" / "Phases 3–4"
+"03" / "DEC 2026" / "Progress & value" / "Artwork · achievement detail" / "Prices · purchase records" / "Phases 5–7"
+"04" / "JAN–FEB 2027" / "Discovery & wishlist" / "Better picks · live suggestions" / "Cross-store rules · alerts*" / "Phases 8–9"
+"05" / "MAR–APR 2027" / "Desktop readiness" / "Optional accounts · onboarding" / "Release & recovery checks" / "Phase 10"
+"06" / "MAY–AUG 2027" / "Mobile & sync" / "Phone & tablet experience" / "Offline edits · device sync*" / "Phase 11"
+Bottom strip heading: "BUILT SO FAR"
+Three short historical blocks:
+"EARLY BUILDS" / "Local saves · backups · signed updates"
+"4 OCT 2026 · 0.3.4–0.3.7" / "Library connections · themes · dashboard"
+"5 OCT 2026 · 0.3.8–0.3.9" / "Store search · achievements · recovery"
+Footer verbatim: "Estimated windows, not promised release dates."
+Second footer line verbatim: "*Online alerts, accounts and sync depend on verified access and owner-approved services."
+All future milestones are planned, not shipped. The built-so-far strip should be visually distinct from the future route. Do not depict any of the eleven roadmap phases as completed. Use clean restrained professional styling and an elegant abstract mountain / forest atmosphere.

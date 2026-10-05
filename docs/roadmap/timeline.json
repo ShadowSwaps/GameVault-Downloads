@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "updated": "2026-10-05",
+  "timezone": "Europe/Oslo",
+  "current_release": "0.3.9",
+  "status": "planning_estimates",
+  "source_pdf": "GameVault_Development_Roadmap.pdf",
+  "source_pdf_sha256": "90d2702c26280badc8c278ded99f032bed47ca4a8eca25731f564f2bd5515a98",
+  "source_totals": {"phases": 11, "numbered_items": 48, "research_topics": 41},
+  "completed_phases": [],
+  "milestones": [
+    {"id": 1, "window": "October 2026", "title": "Foundation and connections", "phases": [1, 2], "status": "planned", "highlights": ["In-app Settings and reliable app-owned sync", "Five themes with Comfort", "Backups, layouts and unified connections"]},
+    {"id": 2, "window": "November 2026", "title": "Play and collection", "phases": [3, 4], "status": "planned", "highlights": ["Safe launching and optional session detection", "Game detail panel", "Installed/Uninstalled sorting"]},
+    {"id": 3, "window": "December 2026", "title": "Progress and value", "phases": [5, 6, 7], "status": "planned", "highlights": ["SteamGridDB/custom artwork", "Achievement detail and refresh status", "Prices, purchase records and honest valuations"]},
+    {"id": 4, "window": "January-February 2027", "title": "Discovery and wishlist", "phases": [8, 9], "status": "planned", "highlights": ["Better picks and live suggestions", "Cross-store rules and target prices", "Consent-based alerts with approved infrastructure"]},
+    {"id": 5, "window": "March-April 2027", "title": "Desktop readiness", "phases": [10], "status": "planned", "highlights": ["Optional accounts and onboarding", "Release and recovery validation", "Earlier-phase readiness gates"]},
+    {"id": 6, "window": "May-August 2027", "title": "Mobile and sync", "phases": [11], "status": "planned", "highlights": ["Phone and tablet experience", "Offline edits and versioned APIs", "Conflict-safe device sync after desktop stability"]}
+  ],
+  "historical_progress": [
+    {"window": "Early builds", "highlights": ["Local saves", "Backups", "Signed updates"]},
+    {"window": "2026-10-04", "versions": ["0.3.4", "0.3.5", "0.3.6", "0.3.7"], "highlights": ["Library connections", "Themes", "Unified dashboard"]},
+    {"window": "2026-10-05", "versions": ["0.3.8", "0.3.9"], "highlights": ["Three-store search", "Achievement images and rarity", "Recovery and sync feedback"]}
+  ],
+  "forecast_notes": [
+    "Dates are planning windows, not release commitments or assigned future versions.",
+    "Six releases on two days are a short burst, including prepared work and a hotfix; do not extrapolate a linear release rate.",
+    "Assume steady owner/Codex work with review, Windows validation, fixes and usage-limit pauses.",
+    "Online services and mobile have wider uncertainty and require verified access and owner decisions before costs.",
+    "Review after each major milestone and preserve detailed phase completion gates."
+  ]
+}
